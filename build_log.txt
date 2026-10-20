@@ -1,0 +1,39 @@
+MSBuild version 17.14.60+43b635718 for .NET Framework
+
+  Checking File Globs
+  mod.cpp
+C:\Users\Erik\Desktop\Older Zelda Games\newgame+\mod-template\dusklight\libs\JSystem\include\JSystem\JUtility\JUTTexture.h(79,48): warning C4806: '|': unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant [C:\Users\Erik\Desktop\Older Zelda Games\newgame+\mod-template\build\newgameplus.vcxproj]
+  (compiling source file '../src/mod.cpp')
+  
+C:\Users\Erik\Desktop\Older Zelda Games\newgame+\mod-template\dusklight\libs\JSystem\include\JSystem\JSupport\JSUIosBase.h(28,47): warning C4805: '&=': unsafe mix of type 'bool' and type 'int' in operation [C:\Users\Erik\Desktop\Older Zelda Games\newgame+\mod-template\build\newgameplus.vcxproj]
+  (compiling source file '../src/mod.cpp')
+  
+C:\Users\Erik\Desktop\Older Zelda Games\newgame+\mod-template\dusklight\libs\JSystem\include\JSystem\JSupport\JSUIosBase.h(28,47): warning C4805: '&': unsafe mix of type 'bool' and type 'int' in operation [C:\Users\Erik\Desktop\Older Zelda Games\newgame+\mod-template\build\newgameplus.vcxproj]
+  (compiling source file '../src/mod.cpp')
+  
+C:\Users\Erik\Desktop\Older Zelda Games\newgame+\mod-template\dusklight\libs\JSystem\include\JSystem\JSupport\JSUIosBase.h(29,47): warning C4805: '|=': unsafe mix of type 'bool' and type 'JSUIosBase::EIoState' in operation [C:\Users\Erik\Desktop\Older Zelda Games\newgame+\mod-template\build\newgameplus.vcxproj]
+  (compiling source file '../src/mod.cpp')
+  
+C:\Users\Erik\Desktop\Older Zelda Games\newgame+\mod-template\dusklight\libs\JSystem\include\JSystem\JSupport\JSUIosBase.h(29,47): warning C4805: '|': unsafe mix of type 'bool' and type 'JSUIosBase::EIoState' in operation [C:\Users\Erik\Desktop\Older Zelda Games\newgame+\mod-template\build\newgameplus.vcxproj]
+  (compiling source file '../src/mod.cpp')
+  
+C:\Users\Erik\Desktop\Older Zelda Games\newgame+\mod-template\dusklight\include\SSystem\SComponent\c_cc_d.h(235,9): warning C4068: unknown pragma 'push' [C:\Users\Erik\Desktop\Older Zelda Games\newgame+\mod-template\build\newgameplus.vcxproj]
+  (compiling source file '../src/mod.cpp')
+  
+C:\Users\Erik\Desktop\Older Zelda Games\newgame+\mod-template\dusklight\include\SSystem\SComponent\c_cc_d.h(261,9): warning C4068: unknown pragma 'pop' [C:\Users\Erik\Desktop\Older Zelda Games\newgame+\mod-template\build\newgameplus.vcxproj]
+  (compiling source file '../src/mod.cpp')
+  
+C:\Users\Erik\Desktop\Older Zelda Games\newgame+\mod-template\dusklight\include\d\d_stage.h(408,9): warning C4068: unknown pragma 'push' [C:\Users\Erik\Desktop\Older Zelda Games\newgame+\mod-template\build\newgameplus.vcxproj]
+  (compiling source file '../src/mod.cpp')
+  
+C:\Users\Erik\Desktop\Older Zelda Games\newgame+\mod-template\dusklight\include\d\d_stage.h(439,9): warning C4068: unknown pragma 'pop' [C:\Users\Erik\Desktop\Older Zelda Games\newgame+\mod-template\build\newgameplus.vcxproj]
+  (compiling source file '../src/mod.cpp')
+  
+     Creating library C:/Users/Erik/Desktop/Older Zelda Games/newgame+/mod-template/build/Release/newgameplus.lib and object C:/Users/Erik/Desktop/Older Zelda Games/newgame+/mod-template/build/Release/newgameplus.exp
+  newgameplus.vcxproj -> C:\Users\Erik\Desktop\Older Zelda Games\newgame+\mod-template\build\Release\newgameplus.dll
+  Packaging newgameplus -> C:/Users/Erik/Desktop/Older Zelda Games/newgame+/mod-template/build/mods/newgameplus.dusk
+  mod.json
+  lib
+  lib/windows-amd64
+  lib/windows-amd64/mod.dll
+  res

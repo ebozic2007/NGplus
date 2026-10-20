@@ -1,7 +1,7 @@
 {
-  "id": "com.example.my_mod",
-  "name": "My Mod",
-  "version": "@PROJECT_VERSION@",
-  "author": "You",
-  "description": "An example Dusklight mod"
+  "id": "com.ebozic.ngplus",
+  "name": "New Game+",
+  "version": "1.0",
+  "author": "ebozic",
+  "description": "A New Game+ mod that lets you start a new game with certain conditions, you can choose what you want to carry over."
 }
