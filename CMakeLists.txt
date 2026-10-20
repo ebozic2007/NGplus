@@ -12,9 +12,8 @@ include("${CMAKE_CURRENT_SOURCE_DIR}/cmake/FetchDusklight.cmake")
 add_subdirectory("${DUSKLIGHT_DIR}/sdk" dusklight-sdk EXCLUDE_FROM_ALL)
 
 add_mod(newgameplus
-      	FEATURES game
+        FEATURES game
         SOURCES src/mod.cpp
         MOD_JSON ${CMAKE_CURRENT_BINARY_DIR}/mod.json
         RES_DIR res
 )
-target_compile_features(newgameplus PUBLIC cxx_std_20)

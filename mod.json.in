@@ -1,7 +1,7 @@
 {
   "id": "com.ebozic.ngplus",
   "name": "New Game+",
-  "version": "1.0",
+  "version": "@MOD_VERSION@",
   "author": "ebozic",
   "description": "A New Game+ mod that lets you start a new game with certain conditions, you can choose what you want to carry over."
 }
