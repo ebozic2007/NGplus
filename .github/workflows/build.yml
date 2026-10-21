@@ -98,6 +98,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - uses: actions/checkout@v7
 
@@ -113,8 +114,28 @@ jobs:
             "https://github.com/encounter/symgen/releases/download/${SYMGEN_VERSION}/symgen-linux-x86_64"
           chmod +x symgen
 
+      - name: Diagnose mod.json differences
+        shell: bash
+        run: |
+          set -e
+
+          echo "=== Android mod.json ==="
+          unzip -p dist/mod-android-aarch64/newgameplus.dusk mod.json
+          echo
+
+          echo "=== Windows AMD64 mod.json ==="
+          unzip -p dist/mod-windows-amd64/newgameplus.dusk mod.json
+          echo
+
+          echo "=== SHA256 hashes of all platform mod.json files ==="
+          for bundle in dist/*/*.dusk; do
+            echo "--- $bundle"
+            unzip -p "$bundle" mod.json | sha256sum
+          done
+
       - name: Merge bundles
         run: |
+          mkdir -p combined
           name=$(basename dist/mod-linux-x86_64/*.dusk)
           python3 tools/merge_mod.py -o "combined/$name" --symgen ./symgen \
             dist/*/*.dusk
