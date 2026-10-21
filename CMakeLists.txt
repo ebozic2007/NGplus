@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.26)
 
 set(MOD_VERSION "1.0.0")
-configure_file(mod.json.in mod.json @ONLY)
+configure_file(mod.json.in mod.json @ONLY NEWLINE_STYLE UNIX)
 
 project(newgameplus CXX)
 
